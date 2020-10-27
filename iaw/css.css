@@ -1,0 +1,64 @@
+
+
+.logo{
+  float: left;
+
+}
+header{
+  blackground-image: URL("foto1.jpeg");
+  height: 10px;
+  width: 100%;
+  bacground-color: #000000;
+}
+.menu{
+  background-color: #000;
+}
+.menu ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+.menu ul li{
+  display: inline-block;
+  padding: 20px;
+
+}
+.menu ul li a{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+.menu ul li a:hover{
+  background-color: #7e4dca;
+}
+body{
+  background-color: #7e4dca;
+  height: 100%;
+  width: 100%;
+  padding: 150px;
+  font-family: arial;
+}
+footer{
+  background-color: #a6acaf;
+
+}
+.texto_cab{
+  float: left;
+  font-size: 50px;
+  color: #ESE729;
+  font-family: arial;
+  font-syle: italic;
+
+}
+.texto_cent{
+  color: #ese729;
+}
+.logo{
+  height: 125px;
+
+}
+.centro{
+  background-color: #E3DEDD;
+  height: 280PX;
+}
