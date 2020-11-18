@@ -31,11 +31,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>username</title>
+        <title>fromulario</title>
     </head>
     <body>
     <?php if(!$_GET):?>
-    <form action="respuesta.php" method="POST">
+    <form action="usuarios.php" method="POST">
             <p><label for="username">username</labdel>
                 <input type="text" name="username">
             </p>
