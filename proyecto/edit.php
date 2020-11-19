@@ -1,12 +1,12 @@
 <?php
 // leer lo que nos llega
-$id = $_GET["id"];
-$color = $_GET["color"];
-$descripcion = $_GET["descripcion"];
+$id = $_GET['id'];
+$username = $_GET['username'];
+$password = $_GET['password'];
 
 include_once 'conexion.php';
 // update
-$sql_update ="UPDATE colores SET color=?, descripcion=? WHERE id=?";
+$sql_update ="UPDATE user SET username=?, password=? WHERE id=?";
 $sentencia_sql =$gbd->prepare($sql_update);
-$sentencia_sql->execute(array($color, $descripcion, $id));
-header("location:index.php");
+$sentencia_sql->execute(array($username, $password, $id));
+header("location:user.php");

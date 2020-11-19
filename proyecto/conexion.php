@@ -1,5 +1,5 @@
 <?php
-$link = 'mysql:host=localhost;dbname=iaw';
+$link = 'mysql:host=localhost;dbname=user';
 $usuario = 'root';
 $pwd = '';
 
@@ -11,3 +11,5 @@ try{
     print "error". $e->getMessage()."<br/>";
     die();
 }
+
+
